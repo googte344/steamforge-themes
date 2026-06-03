@@ -1,0 +1,83 @@
+:root {
+    --steam-background: #ef4b85;
+    --steam-top-bar: #171a21;
+    --steam-accent-color: linear-gradient(#2a3a4a 1px, transparent 1px) 0 0 / 20px 20px, linear-gradient(90deg, #2a3a4a 1px, transparent 1px) 0 0 / 20px 20px, #1b2838;
+    --steam-text-color: #c6d4df;
+    --steam-secondary-text: #8f9ea8;
+    --steam-border: #2a3a4a;
+    --steam-button: #2c4056;
+    --steam-button-hover: #5c9e3e;
+    --steam-button-active: #1a2f3e;
+    --steam-button-disabled: #1e2c3a;
+    --steam-button-text: #c6d4df;
+    --steam-panel-background: #1b2838;
+    --steam-window-background: #1b2838;
+    --SystemAccentColor: linear-gradient(#2a3a4a 1px, transparent 1px) 0 0 / 20px 20px, linear-gradient(90deg, #2a3a4a 1px, transparent 1px) 0 0 / 20px 20px, #1b2838;
+}
+
+html, body {
+    background: #ef4b85 !important;
+}
+
+html, body {
+    color: #c6d4df;
+}
+
+html *, body * {
+    color: #c6d4df !important;
+}
+
+a, body a, html a, [class*='accent'], [class*='Accent'], [class*='SystemAccent'] {
+    color: linear-gradient(#2a3a4a 1px, transparent 1px) 0 0 / 20px 20px, linear-gradient(90deg, #2a3a4a 1px, transparent 1px) 0 0 / 20px 20px, #1b2838 !important;
+}
+
+[class*='secondary'], [class*='Secondary'], small, .subtitle {
+    color: #8f9ea8 !important;
+}
+
+button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'] {
+    background: #2c4056 !important;
+}
+
+button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton']:hover {
+    background: #5c9e3e !important;
+}
+
+button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton']:active, button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'][class*='active'], button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'][class*='Active'] {
+    background: #1a2f3e !important;
+}
+
+button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton']:disabled, button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'][class*='disabled'], button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'][class*='Disabled'] {
+    background: #1e2c3a !important;
+    opacity: 0.5 !important;
+}
+
+button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'], button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'] * {
+    color: #c6d4df !important;
+}
+
+button, [role='button'], a[class*='btn'], a[class*='btn'] *, [class*='button'], [class*='Button'], [class*='_Button'], [class*='btn'], [class*='Btn'], [class*='DialogButton'], [class*='Primary'], [class*='primary'], [class*='SecondaryButton'], [class*='ActionButton'], [class*='IconButton'], [class*='iconbtn'], [class*='ToolbarButton'], [class*='toolbarbutton'], [class*='MenuButton'], [class*='menubutton'], [class*='TabButton'], [class*='tabbutton'], [class*='ToggleButton'], [class*='togglebutton'] {
+    border-color: #2a3a4a !important;
+}
+
+[class*='TitleBar'], [class*='titlebar'], [class*='NavBar'] {
+    background: #171a21 !important;
+}
+
+[class*='border'], [class*='Border'], [class*='separator'], [class*='Divider'] {
+    border-color: #2a3a4a !important;
+}
+
+[class*='sidebar'], [class*='Sidebar'], [class*='panel'], [class*='Panel'], [class*='card'], [class*='Card'] {
+    background: #1b2838 !important;
+}
+
+[class*='ContentFrame'], [class*='steamdesktop'], [class*='Window'] {
+    background: #1b2838 !important;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto;
+    object-fit: contain;
+}
